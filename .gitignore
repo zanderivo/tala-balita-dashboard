@@ -1,0 +1,13 @@
+# Ignore large original file
+tala_final.parquet
+
+# Keep split parts
+!tala_final_part_*.parquet
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.venv
+env/
+venv/
